@@ -36,4 +36,15 @@ The APIs have a base url =='/api==' pre-pended to all endpoints. The various end
 
 Endpoint	HTTP Method	API Info	Params/Body
 
+ Using axiosInstance:
+
+  axiosInstance.get(
+      "/v2/everything?q=health&apiKey=477a66c5e50849d7af0b7e31a2bdbb06&pageSize=50"
+    );
+
+
+  baseURL: "https://newsapi.org",   
+
+
+
 
